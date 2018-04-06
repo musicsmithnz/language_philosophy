@@ -39,3 +39,9 @@ https://www.researchgate.net/publication/299412540_Code_Readability_Testing_an_E
 https://www.bookdepository.com/Complexity-in-Language-Salikoko-S-Mufwene-Francois-Pellegrino-Christophe-Coupe/9781107054370
 https://churchofentropy.wordpress.com/2016/01/10/the-history-of-our-planet-in-under-2000-words/
 # language_philosophy
+#naming conventions
+
+Class names: Pascal Casing
+
+Brackets: Egyptian
+file names: Snake 
