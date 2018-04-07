@@ -1,7 +1,7 @@
 <h1>HTML5 Code Standards</h1>
 
-HTML should be thought of as defining an abstract structure of a page defined to be read by automated algorithms such as search engines and screen readers. You should be able to write an HTML document without even looking at how a browser interprets it, but rather looking at how screen readers or HTML outline plugins might interpret it. HTML defines the document that these tools see.
-
+<p>HTML should be thought of as defining an abstract structure of a page defined to be read by automated algorithms such as search engines and screen readers. You should be able to write an HTML document without even looking at how a browser interprets it, but rather looking at how screen readers or HTML outline plugins might interpret it. HTML defines the document that these tools see.
+</p>
 <ol>
     <li>Elements - Metadata</li>
     <li>Elements - Sectioning</li>
@@ -11,71 +11,102 @@ HTML should be thought of as defining an abstract structure of a page defined to
     <li>Elements - Embedded</li>
 </ol>
 
-* <aside>
-* <article>
-* <section>
-* <nav>
-* <html>
-* <head>
-* <body>
-* <main>
-* <footer>
-
-##Text-level Semantic Elements
-
-Elements that are descriptive of inline-level or intra-paragraph content
-<ol class="toc">
-            <li><a href="textlevel-semantics.html#the-a-element"><span class="secno">4.5.1</span> <span class="content">The <span><code>a</code></span> element</span></a>
-                        </li><li><a href="textlevel-semantics.html#the-em-element"><span class="secno">4.5.2</span> <span class="content">The <span><code>em</code></span> element</span></a>
-                                </li><li><a href="textlevel-semantics.html#the-strong-element"><span class="secno">4.5.3</span> <span class="content">The <span><code>strong</code></span> element</span></a>
-                                        </li><li><a href="textlevel-semantics.html#the-small-element"><span class="secno">4.5.4</span> <span class="content">The <span><code>small</code></span> element</span></a>
-                                                </li><li><a href="textlevel-semantics.html#the-s-element"><span class="secno">4.5.5</span> <span class="content">The <span><code>s</code></span> element</span></a>
-                                                        </li><li><a href="textlevel-semantics.html#the-cite-element"><span class="secno">4.5.6</span> <span class="content">The <span><code>cite</code></span> element</span></a>
-                                                                </li><li><a href="textlevel-semantics.html#the-q-element"><span class="secno">4.5.7</span> <span class="content">The <span><code>q</code></span> element</span></a>
-                                                                        </li><li><a href="textlevel-semantics.html#the-dfn-element"><span class="secno">4.5.8</span> <span class="content">The <span><code>dfn</code></span> element</span></a>
-                                                                                </li><li><a href="textlevel-semantics.html#the-abbr-element"><span class="secno">4.5.9</span> <span class="content">The <span><code>abbr</code></span> element</span></a>
-                                                                                        </li><li><a href="textlevel-semantics.html#the-ruby-element"><span class="secno">4.5.10</span> <span class="content">The <span><code>ruby</code></span> element</span></a>
-                                                                                                </li><li><a href="textlevel-semantics.html#the-rb-element"><span class="secno">4.5.11</span> <span class="content">The <span><code>rb</code></span> element</span></a>
-                                                                                                        </li><li><a href="textlevel-semantics.html#the-rt-element"><span class="secno">4.5.12</span> <span class="content">The <span><code>rt</code></span> element</span></a>
-                                                                                                                </li><li><a href="textlevel-semantics.html#the-rtc-element"><span class="secno">4.5.13</span> <span class="content">The <span><code>rtc</code></span> element</span></a>
-                                                                                                                        </li><li><a href="textlevel-semantics.html#the-rp-element"><span class="secno">4.5.14</span> <span class="content">The <span><code>rp</code></span> element</span></a>
-                                                                                                                                </li><li><a href="textlevel-semantics.html#the-data-element"><span class="secno">4.5.15</span> <span class="content">The <span><code>data</code></span> element</span></a>
-                                                                                                                                        </li><li><a href="textlevel-semantics.html#the-time-element"><span class="secno">4.5.16</span> <span class="content">The <span><code>time</code></span> element</span></a>
-                                                                                                                                                </li><li><a href="textlevel-semantics.html#the-code-element"><span class="secno">4.5.17</span> <span class="content">The <span><code>code</code></span> element</span></a>
-                                                                                                                                                        </li><li><a href="textlevel-semantics.html#the-var-element"><span class="secno">4.5.18</span> <span class="content">The <span><code>var</code></span> element</span></a>
-                                                                                                                                                                </li><li><a href="textlevel-semantics.html#the-samp-element"><span class="secno">4.5.19</span> <span class="content">The <span><code>samp</code></span> element</span></a>
-                                                                                                                                                                        </li><li><a href="textlevel-semantics.html#the-kbd-element"><span class="secno">4.5.20</span> <span class="content">The <span><code>kbd</code></span> element</span></a>
-                                                                                                                                                                                </li><li><a href="textlevel-semantics.html#the-sub-and-sup-elements"><span class="secno">4.5.21</span> <span class="content">The <span><code>sub</code></span> and <span><code>sup</code></span> elements</span></a>
-                                                                                                                                                                                        </li><li><a href="textlevel-semantics.html#the-i-element"><span class="secno">4.5.22</span> <span class="content">The <span><code>i</code></span> element</span></a>
-                                                                                                                                                                                                </li><li><a href="textlevel-semantics.html#the-b-element"><span class="secno">4.5.23</span> <span class="content">The <span><code>b</code></span> element</span></a>
-                                                                                                                                                                                                        </li><li><a href="textlevel-semantics.html#the-u-element"><span class="secno">4.5.24</span> <span class="content">The <span><code>u</code></span> element</span></a>
-                                                                                                                                                                                                                </li><li><a href="textlevel-semantics.html#the-mark-element"><span class="secno">4.5.25</span> <span class="content">The <span><code>mark</code></span> element</span></a>
-                                                                                                                                                                                                                        </li><li><a href="textlevel-semantics.html#the-bdi-element"><span class="secno">4.5.26</span> <span class="content">The <span><code>bdi</code></span> element</span></a>
-                                                                                                                                                                                                                                </li><li><a href="textlevel-semantics.html#the-bdo-element"><span class="secno">4.5.27</span> <span class="content">The <span><code>bdo</code></span> element</span></a>
-                                                                                                                                                                                                                                        </li><li><a href="textlevel-semantics.html#the-span-element"><span class="secno">4.5.28</span> <span class="content">The <span><code>span</code></span> element</span></a>
-                                                                                                                                                                                                                                                </li><li><a href="textlevel-semantics.html#the-br-element"><span class="secno">4.5.29</span> <span class="content">The <span><code>br</code></span> element</span></a>
-                                                                                                                                                                                                                                                        </li><li><a href="textlevel-semantics.html#the-wbr-element"><span class="secno">4.5.30</span> <span class="content">The <span><code>wbr</code></span> element</span></a>
-                                                                                                                                                                                                                                                                </li><li><a href="textlevel-semantics.html#text-level-semantics-usage-summary"><span class="secno">4.5.31</span> <span class="content">Usage summary</span></a>
-                                                                                                                                                                                                                                                                       </li></ol>
-<a>
-<em>
-<small>
-<strong>
-<s>
-
-
-<abbr>
-<b>
-    <cite>
-<dfn>
-<i>
-
-* <span>
-* <time>
-
-* <details>
-* <figcaption>
-* <figure>
-* <header>
-* <mark>
-* <summary>
+<ol>
+    <li>html</li>
+    <li>head</li>
+    <li>title</li>
+    <li>base</li>
+    <li>link</li>
+    <li>meta</li>
+    <li>style</li>
+</ol>
+<ul>
+	<li><code>a</code></li>
+	<li><code>abbr</code></li>
+	<li><code>address</code></li>
+	<li><code>area</code>*</li>
+	<li><code>article</code></li>
+	<li><code>aside</code></li>
+	<li><code>audio</code></li>
+	<li><code>b</code></li>
+	<li><code>bdi</code></li>
+	<li><code>bdo</code></li>
+	<li><code>blockquote</code></li>
+	<li><code>br</code></li>
+	<li><code>button</code></li>
+	<li><code>canvas</code></li>
+	<li><code>cite</code></li>
+	<li><code>code</code></li>
+	<li><code>data</code></li>
+	<li><code>date</code></li>
+	<li><code>datalist</code></li>
+	<li><code>del</code></li>
+	<li><code>details</code></li>
+	<li><code>dfn</code></li>
+	<li><code>dialog</code></li>
+	<li><code>div</code></li>
+	<li><code>dl</code></li>
+	<li><code>em</code></li>
+	<li><code>embed</code></li>
+	<li><code>fieldset</code></li>
+	<li><code>figure</code></li>
+	<li><code>footer</code></li>
+	<li><code>form</code></li>
+	<li><code>h1</code></li>
+	<li><code>h2</code></li>
+	<li><code>h3</code></li>
+	<li><code>h4</code></li>
+	<li><code>h5</code></li>
+	<li><code>h6</code></li>
+	<li><code>header</code></li>
+	<li><code>hr</code></li>
+	<li><code>i</code></li>
+	<li><code>iframe</code></li>
+	<li><code>img</code></li>
+	<li><code>input</code></li>
+	<li><code>ins</code></li>
+	<li><code>kbd</code></li>
+	<li><code>label</code></li>
+	<li><code>link</code>*</li>
+	<li><code>main</code></li>
+	<li><code>map</code></li>
+	<li><code>mark</code></li>
+	<li><code>math</code></li>
+	<li><code>menu</code></li>
+	<li><code>meta</code>*</li>
+	<li><code>meter</code></li>
+	<li><code>nav</code></li>
+	<li><code>noscript</code></li>
+	<li><code>object</code></li>
+	<li><code>ol</code></li>
+	<li><code>output</code></li>
+	<li><code>p</code></li>
+	<li><code>picture</code></li>
+	<li><code>pre</code></li>
+	<li><code>progress</code></li>
+	<li><code>q</code></li>
+	<li><code>ruby</code></li>
+	<li><code>s</code></li>
+	<li><code>samp</code></li>
+	<li><code>script</code></li>
+	<li><code>section</code></li>
+	<li><code>select</code></li>
+	<li><code>small</code></li>
+	<li><code>span</code></li>
+	<li><code>strong</code></li>
+	<li><code>style</code>*</li>
+	<li><code>sub</code></li>
+	<li><code>sup</code></li>
+	<li><code>svg</code></li>
+	<li><code>table</code></li>
+	<li><code>template</code></li>
+	<li><code>textarea</code></li>
+	<li><code>time</code></li>
+	<li><code>u</code></li>
+	<li><code>ul</code></li>
+	<li><code>var</code></li>
+	<li><code>video</code></li>
+	<li><code>wbr</code></li>
+	<li>autonomous custom elements</li>
+	<li><span>Text*</span></li>
+	</ul>
