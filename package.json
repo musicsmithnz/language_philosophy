@@ -1,0 +1,22 @@
+{
+  "name": "code-standards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musicsmithnz/language_philosophy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/musicsmithnz/language_philosophy/issues"
+  },
+  "homepage": "https://github.com/musicsmithnz/language_philosophy#readme",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0-pre.12"
+  }
+}
